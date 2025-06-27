@@ -7,3 +7,15 @@
 .aspect-\[5\/7\] {
   aspect-ratio: 5 / 7;
 }
+
+@keyframes floating {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, -55%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
