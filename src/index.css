@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.translate-center {
+  transform: translate(-50%, -50%);
+}
+
+.aspect-\[5\/7\] {
+  aspect-ratio: 5 / 7;
+}
